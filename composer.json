@@ -1,0 +1,31 @@
+{
+    "name": "rweber7912/timezoned",
+    "description": "Laravel trait for converting Eloquent model timestamps according to timezones",
+    "keywords": ["laravel", "eloquent", "model", "timezone"],
+    "type": "project",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "^5.0",
+        "nesbot/carbon": "^1.20"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Weber",
+            "email": "ryan@picoprime.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RyanWeber\\Mutators\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RyanWeber\\Mutators\\TimezonedServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
