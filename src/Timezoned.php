@@ -102,6 +102,10 @@ trait Timezoned
 	 */
 	protected function applyTimezone($value, $fromTz, $toTz)
 	{
+        if (!$value) {
+            return $value;
+        }
+
 		return Carbon::parse($value, $fromTz)->timezone($toTz);
 	}
 
