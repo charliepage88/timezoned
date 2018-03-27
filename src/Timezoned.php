@@ -38,7 +38,7 @@ trait Timezoned
 		parent::setAttribute($key, $value);
 
 		if ($this->shouldApplyTimezone($key)) {
-			$this->attributes[$key] = $this->setAppTimezone($value);
+			// $this->attributes[$key] = $this->setAppTimezone($value);
 		}
 
 		return $this;
