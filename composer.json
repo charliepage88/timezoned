@@ -5,8 +5,8 @@
     "type": "project",
     "require": {
         "php": ">=7.1.3",
-        "illuminate/support": "^5.5",
-        "nesbot/carbon": "^1.25"
+        "illuminate/support": "^5.7",
+        "nesbot/carbon": "^2.17"
     },
     "license": "MIT",
     "authors": [
